@@ -1,5 +1,5 @@
-import { IHomeImage } from "../app/containers/HomePage/type";
+import { IHomePageImage } from "../app/containers/HomePage/type";
 
 export interface IRootAppState {
-  homePage: IHomeImage;
+  homePage: IHomePageImage;
 }

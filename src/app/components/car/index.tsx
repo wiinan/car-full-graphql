@@ -69,7 +69,7 @@ const SmallText = styled.p`
   `}
 `;
 
-const DailyPrice = styled.h5`
+const DialyPrice = styled.h5`
   ${tw`
     text-red-500
     font-bold
@@ -138,7 +138,7 @@ export function Car(props: ICarProps) {
   const {
     name,
     thumbnailSrc,
-    dailyPrice,
+    dialyPrice,
     monthlyPrice,
     mileage,
     gearType,
@@ -151,9 +151,9 @@ export function Car(props: ICarProps) {
       </CarThumbnail>
       <CarName>{name}</CarName>
       <PricesContainer>
-        <DailyPrice>
-          {dailyPrice}R$<SmallText>/Dia</SmallText>
-        </DailyPrice>
+        <DialyPrice>
+          {dialyPrice}R$<SmallText>/Dia</SmallText>
+        </DialyPrice>
         <MonthlyPrice>
           {monthlyPrice}R$<SmallText>/Mes</SmallText>
         </MonthlyPrice>

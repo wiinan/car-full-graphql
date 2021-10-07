@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { IHomeImage } from "./type";
+import { IHomePageImage } from "./type";
 
-const initialState: IHomeImage = {
+const initialState: IHomePageImage = {
   topCars: [],
 };
 

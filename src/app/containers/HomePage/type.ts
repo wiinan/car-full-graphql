@@ -1,5 +1,5 @@
 import { GetCars_cars } from "../../services/carService/__generated__/GetCars";
 
-export interface IHomeImage {
+export interface IHomePageImage {
   topCars: GetCars_cars[];
 }

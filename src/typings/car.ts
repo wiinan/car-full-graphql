@@ -3,7 +3,7 @@ export interface ICar {
   name: string;
   mileage: string;
   gearType: string;
-  dailyPrice: number;
+  dialyPrice: number;
   monthlyPrice: number;
   gas: string;
 }
