@@ -29,6 +29,7 @@
     "@types/reselect": "^2.2.0",
     "autoprefixer": "^9.8.6",
     "dotenv": "^10.0.0",
+    "express": "^4.17.1",
     "graphql": "^14.3.1",
     "postcss": "^7.0.36",
     "postCSS": "npm:postcss@^8.3.6",
@@ -54,7 +55,8 @@
     "test": "craco test",
     "eject": "react-scripts eject",
     "schema:download": "npx apollo service:download --endpoint=http://localhost:9000/graphql ./src/app/graphql-schema.json",
-    "schema:generate-watch": "npx apollo codegen:generate --localSchemaFile=./src/app/graphql-schema.json --target=typescript --tagName=gql --watch"
+    "schema:generate-watch": "npx apollo codegen:generate --localSchemaFile=./src/app/graphql-schema.json --target=typescript --tagName=gql --watch",
+    "start:prod": "nodemon ./server.js"
   },
   "eslintConfig": {
     "extends": "react-app"
